@@ -1,0 +1,19 @@
+h1{
+    background-color: aquamarine;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown
+}
+
+.firstpara{
+    background-color: blanchedalmond;
+}
+
+.secondpara{
+    background-color: beige;
+}
+
+.thirdpara{
+    background-color: darkorange;
+}
