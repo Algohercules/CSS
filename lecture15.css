@@ -5,17 +5,29 @@ h1{
     border-width: 2px;
     border-color: brown */
 
-    border: solid brown 10px;
+    border: solid brown 10px ;
+    border: radius 40px; ;
+
+    /* defining width */
+
+    width: 400px;
+    height: 200px;
 }
 
 .firstpara{
     background-color: blanchedalmond;
+    border: solid brown 10px ;
+    border: radius 40px; ;
 }
 
 .secondpara{
     background-color: beige;
+    border: solid brown 10px ;
+    border: radius 40px; ;
 }
 
 .thirdpara{
     background-color: darkorange;
+    border: solid brown 10px ;
+    border: radius 40px; ;
 }
