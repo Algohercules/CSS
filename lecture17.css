@@ -11,14 +11,14 @@ div{
 
 }
 
-.image2{
+/* .image2{
     /* position: relative;
     top: 200px; */
-}
+ */
 
 .image2{
      position: absolute;
-    top: px;
+     top: 250 px;
 } 
 
 .image4{
@@ -26,3 +26,11 @@ div{
 }
 
 
+.image3{
+    position: sticky;
+    top: 100px;
+}
+
+.container{
+    height: 8000px;
+}
