@@ -1,10 +1,15 @@
 /* css position property */
 
 
-img{
-    margin: 10px;
+.image{
+    margin: 500px;
 }
 
 div{
-    border: 1px solid black;
+
+     border: 1px solid black; 
+
 }
+
+
+
