@@ -14,6 +14,8 @@
     border: 1px solid brown;
     margin: 5px;
     padding:5px;
-    box-shadow: 50px 30px brown;
+    /* box-shadow: 50px 30px brown; */
+    box-shadow: 20px 30px 10px brown;
+
 }
 
