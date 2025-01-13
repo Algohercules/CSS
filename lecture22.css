@@ -1,0 +1,17 @@
+.container{
+    background-color: beige;
+    height: 650px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: aqua;
+    width: 330px;
+    height: 330px;
+    border: 1px;
+    margin: 5px;
+    padding:5px;
+}
