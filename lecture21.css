@@ -1,0 +1,18 @@
+/* media querry */
+
+/* it is a tool by which we can detremine how the elements are aligned on different display sizes */
+
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border: 3px solid black;
+
+}
+
+@media (min-width:500px) {
+    .box{
+          background-color: blue;
+    }
+    
+}
