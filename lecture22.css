@@ -1,6 +1,6 @@
 .container{
     background-color: beige;
-    height: 650px;
+    height: 2000px;
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -9,9 +9,11 @@
 
 .box{
     background-color: aqua;
-    width: 330px;
-    height: 330px;
-    border: 1px;
+    width: 700px;
+    height: 600px;
+    border: 1px solid brown;
     margin: 5px;
     padding:5px;
+    box-shadow: 50px 30px brown;
 }
+
