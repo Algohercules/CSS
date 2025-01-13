@@ -27,14 +27,17 @@
       background-color: aqua;
       order: 500;
       flex-shrink: 4;
+      align-self: center;
 }
 
 #box2{
     background-color: blue;
+    align-self: baseline;
 }
 
 #box3{
     background-color: orange;
+   align-self: baseline;
 }
 
 #box4{
@@ -54,5 +57,7 @@
 /* order is used to change sequence of items /
 
 /* flex shrink and flex grow and flex basis*/
+
+/* align self */
 
 
