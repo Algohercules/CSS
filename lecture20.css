@@ -1,0 +1,35 @@
+/* flexbox */
+
+.container{
+    background-color: beige;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#box1{
+      background-color: aqua;
+}
+
+#box2{
+    background-color: blue;
+}
+
+#box3{
+    background-color: orange;
+}
+
+#box4{
+    background-color: brown;
+}
+
+
