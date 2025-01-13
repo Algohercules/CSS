@@ -39,6 +39,8 @@
 
 #box4{
     background-color: brown;
+    flex-basis: 400px;
+    
 }
 
 
@@ -51,6 +53,6 @@
 
 /* order is used to change sequence of items /
 
-/* flex shrink and flex grow */
+/* flex shrink and flex grow and flex basis*/
 
 
