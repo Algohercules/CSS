@@ -6,8 +6,12 @@
     margin: 2px;
     padding: 2px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    height: 1200px;
+    /* flex-wrap: wrap; */
+    /* justify-content: end; */
+    align-items: center;
+    
 }
 
 .box{
@@ -33,5 +37,13 @@
 #box4{
     background-color: brown;
 }
+
+
+/* justify content */
+/* -->top
+-->left
+-->right */
+
+/* allign */
 
 
