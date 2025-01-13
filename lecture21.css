@@ -10,9 +10,11 @@
 
 }
 
-@media (min-width:500px) {
+@media (min-width:300px) and (min-width:500px) {
     .box{
           background-color: blue;
     }
     
 }
+
+
