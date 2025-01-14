@@ -1,0 +1,27 @@
+/* animations in css */
+
+.containe{
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid black;
+    background-color: beige;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+     width: 400px;
+     height: 100px;
+     margin: 10px;
+     padding: 10px;
+     border: 2px solid black;
+     background-color: blueviolet;
+     animation-name: rightmovement;
+}
+
+
