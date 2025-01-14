@@ -22,7 +22,14 @@
 }
 
 .box:hover{
-    transform: rotate(45deg);
+    /* transform: rotate(360deg); 
+     transform:  rotate(360deg) scale(2) skew(45deg) ;  */
+
+    transform: translate(500px, 500px);
+
+
+
+
 }
 
 p{
