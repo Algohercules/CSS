@@ -1,6 +1,6 @@
 /* animations in css */
 
-.containe{
+.container{
     width: 100vw;
     height: 100vh;
     border: 5px solid black;
@@ -14,6 +14,7 @@
     box-sizing: border-box;
 }
 
+
 .box{
      width: 400px;
      height: 100px;
@@ -21,13 +22,18 @@
      padding: 10px;
      border: 2px solid black;
      background-color: blueviolet;
-     animation-name: rightmovement;
      position: relative;
+     /* animation-name: rightmovement;
      animation-duration: 3s;
      animation-iteration-count: 5;
      animation-delay: 2s;
-     animation-timing-function: ease;
-}
+     animation-timing-function: linear;
+     animation-direction: alternate;
+     animation-play-state: ; */
+
+     animation: 3s linear 1s infinite alternate none running rightmovement; 
+
+     }
 
 @keyframes rightmovement{
          from{
@@ -41,4 +47,6 @@
          }
 
 }
+
+/* animation: @keyframe duration easing function delay iteration count direction fillmode playstate name */
 
