@@ -4,12 +4,26 @@
     width: 400px;
     border:2px solid black ;
     background-color: aqua;
-    transition-property: width;
+
+    /* transition-property: all;
     transition-duration: 4s;
     transition-delay: 1s;
     transition-timing-function: linear;
+ */
+
+/* shorthand notation
+transition: property name   duration   easing fuction     delay */
+
+transition: all 2s ease-in 5s;
+
 }
 
+
+
 .box:hover{
-    all: 1200px;
+    width: 1200px;
+    background-color: blue;
 }
+
+/* it ia mandatory to add hover state */
+
