@@ -20,13 +20,14 @@ nav{
 
 }
 .container{
-   width: 100vh;
+   width: 177vh;
    height: 100vh;
    overflow-x: none;
+   background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
 .navcontainer{
-    width: 100vw;
+    width: 177vh;
     /* background-color: rgb(7, 146, 146); */
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
     min-height: 100px;
@@ -52,4 +53,33 @@ a{
 }
 
 
+.footerbox{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    font-size: larger;
+    color: azure;
+    padding: 5px;
+}
 
+
+.container{
+    width: 70%;
+    margin: auto;
+    border: 2px solid black;
+    background-color: whitesmoke;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+#rightbox1{
+    height: 300px;
+}
+
+#rightbox2 img{
+    height: 50px;
+}
