@@ -27,7 +27,8 @@ nav{
 
 .navcontainer{
     width: 100vw;
-    background-color: rgb(7, 146, 146);
+    /* background-color: rgb(7, 146, 146); */
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
     min-height: 100px;
     display: flex;
     justify-content: space-between;
@@ -37,6 +38,18 @@ nav{
 
 #navlogo{
     font-size: 3rem;
-    color: whitesmoke;
+    color:whitesmoke;
     text-decoration: none;
 }
+a{
+    color: azure;
+}
+
+#navitems{
+    display: flex;
+    gap: 60px;
+    color: whitesmoke;
+}
+
+
+
