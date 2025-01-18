@@ -17,7 +17,7 @@ body{
     padding: 4rem;
     row-gap: 1rem;
     column-gap: 1rem;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 
     /* we can use repeat(2,1fr) to produce two time of 1fr */
@@ -27,4 +27,14 @@ body{
 .item{
     background-color: rgb(24, 185, 185);
     border: 5px solid rgb(8, 7, 7) ;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
