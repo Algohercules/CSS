@@ -17,10 +17,10 @@ body{
     padding: 4rem;
     row-gap: 1rem;
     column-gap: 1rem;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 
-    /* we can use repeat(2,1fr) to produce two time of 1fr */
+    /* we can use repeat(4,1fr) to produce two time of 1fr */
     /* line no. 23 is equal to line no. 20 */
 }
 
@@ -36,5 +36,15 @@ body{
 
 .footer{
     grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.content1{
+    grid-column-start: 2;
     grid-column-end: 4;
 }
