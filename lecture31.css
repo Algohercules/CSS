@@ -17,8 +17,8 @@ body{
     display: grid;
     gap: 1rem;
     background-color: #817070;
-    /* grid-template-columns: repeat(3 , 1fr); */
-    grid-template-columns: repeat(autofit, minmax(200px,500px));
+     /* grid-template-columns: repeat(3 , 1fr);  */
+     grid-template-columns: repeat(auto-fit, minmax(200px,500px)); 
 }
 
 .item{
