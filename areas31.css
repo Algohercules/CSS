@@ -50,3 +50,10 @@ body{
 #footer{
     grid-area: footer;
 }
+
+
+/* steps to make grid areas
+  -->elements ko id provide karo
+  -->ids ka use krke grid area ka naming providde karo
+  -->grid template araes me accordingly place kr do
+  */
