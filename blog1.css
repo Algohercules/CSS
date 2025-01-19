@@ -83,8 +83,8 @@ a{
     font-weight: 600;
     list-style: 1.5rem;
     color: rgb(40, 35, 35);
-    margin-bottom: 0.3rem;
-}
+    /* margin-bottom: 0.3rem;*/
+} 
  
 .card_title_anchor:hover .card_title{
     color: blue;
